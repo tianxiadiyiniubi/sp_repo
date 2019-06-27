@@ -13,6 +13,7 @@ import lombok.experimental.Accessors;
 @Accessors(chain=true)
 public class Item implements Serializable{
 	private static final long serialVersionUID = -2246385786545525329L;
+	//编号
 	private Integer id;
 	private String name;
 	private Integer number;
